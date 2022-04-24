@@ -22,7 +22,7 @@ include = [
 
 [dependencies]
 chrono = "0.4"
-egui = "0.17.0"
+egui = { git = "https://github.com/Atilogit/egui" }
 natord = "1.0.9"
 once_cell = "1.7"
 puffin = { version = "0.13.1", path = "../puffin", features = ["packing"] }
